@@ -1,0 +1,105 @@
+.imgSwiper {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.shareIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    top: 13%;
+    z-index: 5;
+    right: 3%;
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.linkCopied {
+    font-weight: 600;
+    padding: 5px 5px;
+    color: black;
+    border: grey 2px solid;
+    position: fixed;
+    top: 17%;
+    z-index: 5;
+    right: 6%;
+    background-color: rgb(219, 211, 211);
+    border-radius: 10%;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: black;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: black !important;
+}
+
+.mainListingInfo {
+    margin-top: 70px;
+    width: 100%;
+    height: 300px;
+}
+
+.mainCardInfo {
+    padding: 20px 20px;
+    margin-left: 30px;
+    width: 50%;
+    height: 250px;
+}
+
+.listingAddressPargraph {
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
+
+.mainCardInfo .listingP {
+    color: rgb(61, 61, 152);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.listingTypeButton {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    background-color: rgb(180, 33, 33);
+    color: white;
+    border: none;
+    text-align: center;
+    width: 250px;
+    padding: 15px 0;
+    border-radius: 16px;
+}
+
+.bedsBaths {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3px;
+}
+
+.bedsBaths p {
+    font-weight: 600;
+}
+
+.contactLandLord {
+    background-color: rgb(37, 99, 235);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 60%;
+    padding: 15px 0;
+    border-radius: 16px;
+    cursor: pointer;
+    margin: 30px 0;
+}

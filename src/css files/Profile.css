@@ -1,0 +1,78 @@
+.profileBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.profileHeading {
+    margin-top: 55px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.profileInput {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.profileInput input {
+    color: grey;
+    font-weight: 600;
+    padding: 14px;
+    font-size: 1rem;
+    width: 70%;
+    border-radius: 9px;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.profileInput div {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.editsignout span {
+    color: red;
+    cursor: pointer;
+}
+
+.signOut {
+    color: blue;
+    cursor: pointer;
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sellBtn {
+    font-size: 1rem;
+    cursor: pointer;
+    width: 40%;
+    background-color: rgb(75, 75, 177);
+    padding: 20px 8px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    border: none;
+    border-radius: 20px;
+}
+
+.link {
+    width: 100%;
+}
+
+.sellBtn:hover {
+    filter: brightness(0.9);
+}

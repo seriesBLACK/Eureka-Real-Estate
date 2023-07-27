@@ -1,0 +1,121 @@
+.listing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.cardContainer {
+    border-radius: 15px;
+    height: 400px;
+    width: 230px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cardContainer a {
+    display: inline-block;
+}
+
+.listingImg {
+    object-fit: cover;
+    background-position: center;
+    width: 230px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 230px;
+    transition: scale 0.3s;
+}
+
+.listingImg:hover {
+    scale: 1.04;
+}
+
+.listingIcon {
+    color: rgb(26, 199, 26);
+    font-size: 25px;
+}
+
+.profileListingImg {
+    position: relative;
+    width: 230px;
+}
+
+.timeStamp {
+    border-radius: 15px;
+    margin: 8px 8px;
+    padding: 4px 8px;
+    background-color: rgb(75, 75, 177);
+    color: white;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+    transition: scale 0.3s;
+}
+
+.cardInfo {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+
+
+.listingAddress {
+    display: flex;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.listingP {
+    margin: 0;
+    color: white;
+}
+
+.gray p {
+    color: rgb(135, 128, 128);
+}
+
+.price {
+    color: rgb(168, 168, 206);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.beds {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+
+.listingIcons {
+    position: absolute;
+    right: 0;
+}
+
+.icons {
+    margin-right: 9px;
+    cursor: pointer;
+    height: 14px;
+    transition: scale 0.3s;
+}
+
+.icons:hover {
+    scale: 1.2;
+}
+
+.trash {
+    color: red;
+    margin-left: 7px;
+}

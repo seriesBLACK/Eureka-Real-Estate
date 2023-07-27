@@ -1,0 +1,16 @@
+.dataNameForSlider {
+    position: absolute;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    padding: 10px 10px;
+    background-color: rgb(19, 34, 92);
+    color: white;
+    font-weight: 600;
+    margin-left: 20px
+}
+
+.dataregularPrice {
+    bottom: 0;
+    background-color: rgb(27, 54, 162);
+
+}

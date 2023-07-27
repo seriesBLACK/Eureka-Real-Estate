@@ -1,0 +1,145 @@
+.signInPage {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 52%, rgb(19, 102, 118) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.signInPage h2 {
+    color: whitesmoke;
+    font-size: 1.9rem;
+    margin-top: 80px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.signInContainer {
+    margin-top: 30px;
+    height: 70%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px;
+}
+
+.signInContainer img {
+    background: url('login.avif') no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border-radius: 300px;
+}
+
+.signInContainer .rigster {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rigster input {
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    width: 80%;
+    height: 3rem;
+    margin-bottom: 20px;
+
+}
+
+.rigster p {
+    color: white;
+}
+
+.rigster input::placeholder {
+    font-family: cursive;
+}
+
+.rigster button {
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    width: 80%;
+    height: 3rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.signinbtn {
+    background-color: rgb(6, 6, 202);
+    font-weight: 600;
+}
+
+.signinbtn:hover {
+    background-color: rgb(10, 10, 143);
+
+}
+
+.password {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+}
+
+.password input {
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    right: 1rem;
+    font-size: 19px;
+    cursor: pointer;
+    top: 0.9rem;
+}
+
+.moreOpetions {
+    margin-bottom: 20px;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.moreOpetions link {
+    text-decoration: none;
+}
+
+.signupbtn {
+    color: red;
+    text-decoration: none;
+}
+
+.forgotbtn {
+    color: blue;
+    text-decoration: none;
+}
+
+.or {
+    color: lightslategrey;
+}
+
+.google {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.google-icon {
+    margin-right: 12px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.google:hover {
+    background-color: rgb(204, 35, 35);
+}
+
+@media (max-width:850px) {}

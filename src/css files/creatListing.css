@@ -1,0 +1,113 @@
+.creatListing {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creatForm {
+    width: 50%;
+    height: 100%;
+}
+
+.creatForm>* {
+    margin: 15px 5%;
+    font-weight: 600;
+}
+
+.dark {
+    background-color: rgb(50, 49, 49);
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.creatForm button[type="button"] {
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    width: 40%;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border: none;
+    transition: background-color 0.2s
+}
+
+.creatForm .nameInput {
+    width: 88%;
+    padding: 10px 8px;
+    color: rgb(173, 162, 162);
+
+}
+
+.beds {
+    display: flex;
+    gap: 40px;
+}
+
+.beds p {
+    font-size: 0.9rem;
+}
+
+.beds input {
+    width: 50px;
+    aspect-ratio: 1;
+}
+
+.address {
+    width: 88%;
+    height: 70px;
+    padding: 10px 8px;
+    color: rgb(173, 162, 162);
+}
+
+.regular {
+    display: flex;
+    gap: 20px;
+}
+
+.regularPrice {
+    width: 170px;
+    height: 53px;
+    text-align: center;
+
+}
+
+.fade {
+    color: rgb(156, 148, 148);
+    font-size: 15px;
+}
+
+.file {
+    width: 90%;
+    background-color: rgba(211, 209, 203, 0.854);
+    border-radius: 13px;
+    padding: 12px 8px;
+}
+
+.submitbtn {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 50px;
+    padding: 20px 0;
+    width: 93%;
+    background-color: rgb(227, 92, 43);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: scale 0.4s;
+}
+
+.submitbtn:hover {
+    scale: 1.02;
+}
+
+.hide {
+    display: none;
+}

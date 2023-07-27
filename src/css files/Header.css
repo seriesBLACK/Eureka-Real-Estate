@@ -1,0 +1,38 @@
+.header {
+    /* margin-bottom: 4px; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #020024;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container img {
+    z-index: 8;
+    padding: 5px 0;
+    cursor: pointer;
+    width: 100px;
+    aspect-ratio: 1.7;
+}
+
+.nav a {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 23px;
+    padding: 14.2px 0;
+    color: #8ecccc;
+}
+
+.nav a:hover {
+    color: rgb(214, 214, 214);
+    border-bottom: solid 3px rgb(217, 34, 40);
+}
