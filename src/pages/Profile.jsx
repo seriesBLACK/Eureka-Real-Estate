@@ -13,7 +13,7 @@ export default function Profile() {
 
   //Hooks
   const [changeDetail, setChangeDetail] = useState(false);
-  const [listing, setListing] = useState(null);
+  const [listing, setListing] = useState([]);
   const [loading, setLoading] = useState(true);
   const [formData, setFormData] = useState({
     name: auth.currentUser.displayName,
@@ -79,7 +79,7 @@ export default function Profile() {
 
   useEffect(() => {
     fetchUserListings();
-  }, [auth.currentUser.uid]);
+  }, []);
 
   async function onDelete(listingId) {
     if (window.confirm("Are you sure you want to delete the listing?")) {

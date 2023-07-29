@@ -20,7 +20,7 @@ export default function Contact({ userRef, listing }) {
             }
         }
         getLandlord();
-    }, [userRef]);
+    }, []);
 
     return (
         <>

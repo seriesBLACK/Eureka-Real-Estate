@@ -1,0 +1,23 @@
+.navbar {
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(19, 102, 118);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+}
+
+.navbar.hide {
+    right: -30%;
+}
+
+.navIcon {
+    font-size: 25px;
+    color: white;
+}

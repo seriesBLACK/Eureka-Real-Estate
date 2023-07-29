@@ -50,12 +50,6 @@
     cursor: pointer;
 }
 
-.spinner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .sellBtn {
     font-size: 1rem;

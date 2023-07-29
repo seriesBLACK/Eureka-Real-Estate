@@ -142,4 +142,14 @@
     background-color: rgb(204, 35, 35);
 }
 
-@media (max-width:850px) {}
+@media screen and (max-width: 1000px) {
+    .signInContainer img {
+        display: none;
+    }
+
+    .signInContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -15,6 +15,7 @@
 
 }
 
+
 .container img {
     z-index: 8;
     padding: 5px 0;
@@ -29,10 +30,23 @@
     font-weight: 700;
     margin-right: 23px;
     padding: 14.2px 0;
-    color: #8ecccc;
+
+    color: white;
 }
 
 .nav a:hover {
     color: rgb(214, 214, 214);
     border-bottom: solid 3px rgb(217, 34, 40);
+}
+
+.RxHamburgerMenu {
+    color: white;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    .nav a {
+        display: none;
+    }
+
 }

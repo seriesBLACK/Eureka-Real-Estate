@@ -22,7 +22,7 @@ export default function Offers() {
                 });
             });
             setOffers(listing);
-            setLoading(false);
+            // setLoading(false);
         } catch (error) {
             console.log(error);
         }
