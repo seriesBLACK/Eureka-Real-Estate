@@ -14,8 +14,9 @@
 }
 
 .navbar.hide {
-    right: -30%;
+    display: none;
 }
+
 
 .navIcon {
     font-size: 25px;

@@ -14,7 +14,7 @@
 }
 
 .profileInput {
-    width: 50%;
+    width: 100%;
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -28,7 +28,7 @@
     font-weight: 600;
     padding: 14px;
     font-size: 1rem;
-    width: 70%;
+    width: 50%;
     border-radius: 9px;
     border-width: 1px;
     border-color: gray;
@@ -69,4 +69,13 @@
 
 .sellBtn:hover {
     filter: brightness(0.9);
+}
+
+@media screen and (max-width: 500px) {
+
+    .sellBtn,
+    .profileInput input {
+        width: 80%;
+    }
+
 }

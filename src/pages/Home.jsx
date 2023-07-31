@@ -67,7 +67,7 @@ export default function Home() {
             </div>
             <div className="offersListingSection">
               {offers.map((list) => (
-                <ListingItem className="homePageOfferLitsing" key={list.id} listing={list.data} />
+                <ListingItem className="homePageOfferLitsing" key={list.id} listing={list.data} id={list.id} />
               ))}
             </div>
 
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
             <div className="offersListingSection">
               {rent.map((rent) => (
-                <ListingItem className="homePageOfferLitsing" key={rent.id} listing={rent.data} />
+                <ListingItem className="homePageOfferLitsing" key={rent.id} listing={rent.data} id={rent.id} />
               ))}
             </div>
 
@@ -108,7 +108,7 @@ export default function Home() {
             </div>
             <div className="offersListingSection">
               {sale.map((sale) => (
-                <ListingItem className="homePageOfferLitsing" key={sale.id} listing={sale.data} />
+                <ListingItem className="homePageOfferLitsing" key={sale.id} listing={sale.data} id={sale.id} />
               ))}
             </div>
 

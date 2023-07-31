@@ -19,7 +19,7 @@ export default function Header() {
     onAuthStateChanged(auth, (user) => {
       if (user) {
         setPageState("Profile");
-      } else { setPageState("Sign in") }
+      } else { setPageState("sign-in") }
     })
   }, [auth])
 
@@ -55,7 +55,7 @@ export default function Header() {
         <Link to="/Offers">
           <MdLocalOffer className='navIcon' />
         </Link>
-        <Link to="/sign-in">
+        <Link to={`/${pageState}`}>
           <CgProfile className='navIcon' />
         </Link>
         <FaTimes onClick={handelClick} className='navIcon' />
